@@ -21,7 +21,7 @@ main_app.resizable(0,0)
 label_frame = ttk.LabelFrame(main_app, text = 'A simple files organizer/separator')
 label_frame.pack(pady = 25)
 
-path_label = ttk.Label(label_frame, text = 'Enter the path of the folder in "" to organize its files : ')
+path_label = ttk.Label(label_frame, text = 'Enter the path of the folder to organize its files : ')
 path_label.grid(row = 0, column = 0, padx = 5, pady = 10)
 
 path_entry_var = tk.StringVar()                                                                           # User inputs the desired path get stored
